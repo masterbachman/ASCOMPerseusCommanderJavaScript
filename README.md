@@ -4,3 +4,19 @@
 
 
 ASCOM external driver control for Optec's Perseus Commander. 
+
+### Supported Actions
+```JavaScript
+supportedActions.Add("GetPort1Name");
+supportedActions.Add("GetPort2Name");
+supportedActions.Add("GetPort3Name");
+supportedActions.Add("GetPort4Name");
+supportedActions.Add("SetPort1Name");
+supportedActions.Add("SetPort2Name");
+supportedActions.Add("SetPort3Name");
+supportedActions.Add("SetPort4Name");
+supportedActions.Add("GetFWVersion");
+
+supportedActions.Add("IsHomed");
+supportedActions.Add("Home");
+ ```
