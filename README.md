@@ -4,12 +4,12 @@
 
 
 ASCOM external driver control for Optec's Perseus Commander. 
-[Perseus 4-Port Instrument Selector](https://www.optecinc.com/astronomy/catalog/perseus/perseus_4-port.htm)
-[PDF Documentation](https://www.optecinc.com/astronomy/catalog/perseus/pdf/Perseus%20Commander%20Help%20File.pdf)
+  [Perseus 4-Port Instrument Selector](https://www.optecinc.com/astronomy/catalog/perseus/perseus_4-port.htm)
+  [PDF Documentation](https://www.optecinc.com/astronomy/catalog/perseus/pdf/Perseus%20Commander%20Help%20File.pdf)
 
 ![alt text](https://www.optecinc.com/astronomy/catalog/perseus/images/Perseus_Commander.png "Perseus 4-Port Instrument Selector")
 
-### Supported Actions
+### Control API
 ```JavaScript
 supportedActions.Add("GetPort1Name");
 supportedActions.Add("GetPort2Name");
